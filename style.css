@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+*{
+    outline: none;
+}
+.loginPageImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(image/back_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(7px);
+}
+.loginPageForm{
+    position: absolute;
+    width: 36%;
+    height: auto;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 23%;
+    box-shadow: 0px 0px 2px #ccc;
+    border-radius: 6px;
+    padding: 12px;
+    background: rgba(47, 51, 53, 0.29);
+}
+.loginPageForm [type="text"]{
+    position: relative;
+    width: 60%;
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 2px #ccc;
+    height: 36px;
+    margin-top: 8px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.loginPageForm [type="email"]{
+    position: relative;
+    width: 60%;
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 2px #ccc;
+    height: 36px;
+    margin-top: 8px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.loginPageForm [type="number"]{
+    position: relative;
+    width: 60%;
+    background: none;
+    border: none;
+    box-shadow: 0px 0px 2px #ccc;
+    height: 36px;
+    margin-top: 8px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.loginPageForm label{
+    position: relative;
+    width: 35%;
+    display: inline-block;
+}
+.loginPageForm [type="submit"]{
+    position: relative;
+    background: #88b1ef;
+    width: 100px;
+    height: 33px;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0 auto;
+    display: table;
+}
+.loginPageForm ::placeholder{
+    color: #fff;
+}
+ 
+/* <!-- home page css --> */
+
+:root{
+    --primary:#03A9F4;
+    --secondary:#29B6F6;
+    --terciary:#B2EBF2;
+}
+.navbarHomePage{
+    background: var(--primary);
+    height: 80px;
+    width: 100%;
+}
+
+.homepageSearchBox [type="text"]{
+    position: relative;
+    width: 21%;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    background: no-repeat;
+    box-shadow: inset 0px 0px 3px #262727;
+    top: 18px;
+    left: 14px;
+    color: #fff;
+    float: left;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.homepageSearchBox ::placeholder{
+    color: #fff;
+    padding-left: 10px;
+}
+.homePageUserName{
+    position: relative;
+    width: 25%;
+    float: left;
+    top: 18px;
+    left: 37px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: inset 0px 0px 3px #262727;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+}
+.logOutUserName{
+    position: relative;
+    width: 6%;
+    float: right;
+    top: 18px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: inset 0px 0px 3px #262727;
+    border-radius: 5px;
+    height: 35px;
+    line-height: 35px;
+    left: -10px;
+}
+.searchListNameDiv{
+    position: relative;
+
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li{
+    background-color: #ffffff;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 25%;
+    height: 150px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px #4698bd;
+    position: relative;
+    margin-top: 11px;
+  }
+
+  #myUL li a{
+      text-align: center;
+      display: block;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+  .logOutUserName:hover{
+      cursor: pointer;
+  }
